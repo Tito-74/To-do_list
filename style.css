@@ -35,3 +35,31 @@ body{
 #input::placeholder{
     color: #bbb;
 }
+ul li{
+    background: #eee;
+    color: #333;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+}
+ul .fa-check, .fa-trash{
+    position: absolute;
+    cursor: pointer;
+}
+ul .fa-check{
+    right: 40px;
+    color: green;
+
+}
+ul .fa-trash{
+    right:15px;
+    color: #ff0033;
+
+}
+ul .checked{
+    background: lightgreen;
+    text-decoration: line-through;
+    transition: .2s;
+}
