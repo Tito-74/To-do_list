@@ -8,6 +8,7 @@ $(document).ready(function(){
     $('ul').on('click','.fa-trash',function(){
         $(this).parent('li').remove();
     });
+    
     $('ul').on('click','.fa-check', function(){
         $(this).parent('li').toggleClass('checked');
     });
